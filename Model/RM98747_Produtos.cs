@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace CheckPoint.Model
 {
-    internal class RM98747_Produtos
+    public class RM98747_Produtos
     {
+        public int idProduto { get; set; }
+        public string NmProduto { get; set; }
+        public decimal Preco { get; set; }
     }
 }
